@@ -1,11 +1,16 @@
+
+
 html {
 background-color: #F5EBE0;
 }
 
 header    {
 text-align: center;
+position:relative;
 width: 100%;
-word-spacing: 5px;
+right:33px;
+top:25px;
+word-spacing: 20px;
 color: grey;
 font-family: 'Montserrat';
 font-size: 14px;
@@ -34,15 +39,40 @@ font-family:
 
 #breast {
     font-family:'Antic Didone';
+    color:white;
     width: 100%;
-    display: inline;
+    position:relative;
+    top:60px;
+    padding-top:140px;
+    padding-bottom:220px;
     text-align: center;
-    background-image: url('');
+    display:block;
+    background-image: url('https://cdn.discordapp.com/attachments/723521632244858931/1063991005919060070/1000_F_140529172_JEaTYi51DrlrUWmO1xhH7CzpH4uBN57W.jpg');
+}
+.button {
+  background-color: #97a97c;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: 'Montserrat';
+  position: absolute;
+  right: 10px;
+  top: -10px;
 }
 
+.us {
+    word-spacing: 4px;
+}
 
-
-
+a {
+    color: inherit;
+}
 
 
 
