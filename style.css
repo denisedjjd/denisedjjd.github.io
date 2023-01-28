@@ -1,80 +1,152 @@
-
-
 html {
-background-color: #F5EBE0;
-}
-
-header    {
-text-align: center;
-position:relative;
-width: 100%;
-right:33px;
-top:25px;
-word-spacing: 20px;
-color: grey;
-font-family: 'Montserrat';
-font-size: 14px;
-margin-top:30px;
+    background-color: #F5EBE0;
 
 }
 
-
-h3 {
-    display:inline;
+header {
+        display:inline-block;
+        font-size:10px;
+        position: relative;       
+        text-align:center;
+        position:relative;
 }
 
-#logo {
+header h3 {
+    display: inline;
+    position: relative;
+    bottom:20px;
+    left:5px;
+    
+}
 
-width:90px;
-length:90px;
-float:left;
-display:inline;
+header #logo {
+width:60px;
+length:30px;
+
 
 }
 
-#donate {
-float: right;
-font-family:
+
+#mobile-menu-options {
+    display: none;
 }
 
-#breast {
-    font-family:'Antic Didone';
-    color:white;
-    width: 100%;
-    position:relative;
-    top:60px;
-    padding-top:140px;
-    padding-bottom:220px;
-    text-align: center;
-    display:block;
-    background-image: url('https://cdn.discordapp.com/attachments/723521632244858931/1063991005919060070/1000_F_140529172_JEaTYi51DrlrUWmO1xhH7CzpH4uBN57W.jpg');
-
+#mobile {
+    display: block;
 }
+#desktop {
+    display: none;
+}
+
 .button {
-  background-color: #97a97c;
-  border: none;
-  color: white;
-  padding: 5px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  font-family: 'Montserrat';
-  position: absolute;
-  right: 10px;
-  top: -10px;
-}
-
-.us {
-    word-spacing: 4px;
-}
-
-a {
+    background-color: #97a97c;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    position: relative;
+    border-radius:10px;
+  }
+  
+  a {
     color: inherit;
 }
 
+
+
+
+
+
+
+
+
+
+/** CSS FOR PC, DESKTOP VIEWING **/
+
+
+@media screen and (min-width: 1281px) {
+    
+html {
+    background-color: #F5EBE0;
+    }
+    
+    header    {
+    text-align: center;
+    position:relative;
+    width: 100%;
+    right:33px;
+    top:25px;
+    word-spacing: 20px;
+    color: grey;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-top:30px;
+    
+    }
+    
+    
+    h3 {
+        display:inline;
+    }
+    
+    #logo {
+    
+    width:90px;
+    length:90px;
+    float:left;
+    display:inline;
+    
+    }
+    
+    #donate {
+    float: right;
+    font-family:
+    }
+    
+    #breast {
+        font-family:'Antic Didone';
+        color:white;
+        width: 100%;
+        position:relative;
+        top:60px;
+        padding-top:140px;
+        padding-bottom:220px;
+        text-align: center;
+        display:block;
+        background-image: url('https://cdn.discordapp.com/attachments/723521632244858931/1063991005919060070/1000_F_140529172_JEaTYi51DrlrUWmO1xhH7CzpH4uBN57W.jpg');
+    
+    }
+    .button {
+      background-color: #97a97c;
+      border: none;
+      color: white;
+      padding: 5px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      font-family: 'Montserrat';
+      position: absolute;
+      right: 10px;
+      top: -10px;
+    }
+    
+    .us {
+        word-spacing: 4px;
+    }
+    
+    a {
+        color: inherit;
+    }
+}
 
 
 
